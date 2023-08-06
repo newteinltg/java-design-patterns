@@ -48,6 +48,10 @@ import lombok.extern.slf4j.Slf4j;
  * configuration for the {@link Hero} object can be done using the fluent {@link Builder} interface.
  * When configuration is ready the build method is called to receive the final {@link Hero} object.
  */
+
+/**
+ * builder设计模式 是一种对象构建的设计模式。用于将复杂的多参对象的构造简化成多个简单的构造函数的链式调用。
+ */
 @Slf4j
 public class App {
 
